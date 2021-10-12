@@ -16,6 +16,8 @@ In dieser Übung haben wir das erste mal mit css gearbeitet. Wir haben Bilder ei
 
 In dieser Übung haben wir die Erklärung der Box Modelle in eine Website umgewandelt
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/Boxmodell>
+
 5. Übung 5
 
 In dieser Übung haben wir eine Website über Canyoning gemacht
