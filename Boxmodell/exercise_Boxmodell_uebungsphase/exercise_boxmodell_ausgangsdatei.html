@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>exercise Box-Modell</title>
+		<style>
+            body{
+                background-color: #585858;
+                font-family: Calibri, sans-serif;
+                margin: 0px;
+                padding: 0px;
+            }
+            #wrapper{
+                 width: 800px;
+                margin: 20px auto;
+                background-color: white;
+                padding: 20px;
+            }
+            #oben{
+                width: 700px;
+                margin: 20px auto;
+                background-color: white;
+                padding: 20px;
+                border: 2px dotted black;
+            }
+            ul{
+                background-color: silver;
+                border-left: 20px solid red;
+                padding: 20px 0 20px 50px;
+            
+            }
+            
+            h1{
+                font-size: 140%;
+                background-color: silver;
+                padding: 5px;
+                border-bottom: 10px double red;
+                
+                
+                
+            }
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .linkbutton{
+                color: red;
+                width: 150px;
+                font-size: 16px;
+                padding: 10px;
+                border: 2px solid red;
+                border-radius: 7px;
+                text-align: center;
+                text-decoration: none;
+                display: block;
+                
+            }
+            a:hover{
+                color:grey;
+                border-color: grey;
+            }
+            b{
+                color: red;
+                
+            }
+	
+		
+		</style>
+		
+	</head>
+
+	<body>
+		<div id="wrapper">
+		<h1>CSS3 Box-Modell</h1>
+        
+        
+		<div id="oben">
+			<img src="images/400px-Box-Modell.png" alt="Box-Modell"> 
+			<p>Eine Box kann bestehen aus:</p>
+   			<ul>
+   				<li>einem Inhaltsbereich, also der Fläche, die durch Texte und Bilder oder Eigenschaften wie width und height vorgegeben wird,</li>
+   				<li>einem Innenabstand (padding),</li>
+   				<li>einem Rahmen (border) und</li>
+   				<li>einem Außenabstand (margin).</li>
+   			</ul> 
+        </div>
+        
+        <div id="unten">
+		<p>Die komplette Breite eines Elements berechnet sich wie folgt:<br>
+
+   		 <b>margin-left + border-left-width + padding-left + width + padding-right + border-right-width + margin-right</b></p>
+    		<br>
+
+		<p>Die komplette Höhe eines Elements berechnet sich wie folgt:<br>
+
+   		<b>
+            margin-top + border-top-width + padding-top + height + padding-bottom + border-bottom-width + margin-bottom</b></p>
+        </div>
+		<a class="linkbutton" href="https://www.w3schools.com/css/css_boxmodel.asp">Mehr Infos unter w3schools.com</a>	
+        </div>
+	</body>
+</html>
