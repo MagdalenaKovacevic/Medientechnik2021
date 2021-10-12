@@ -4,6 +4,8 @@
 
 In dieser Übung haben wir animierte Menüleisten erstellt
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/animated%20menus>
+
 2. Übung 2
 
 In dieser Übung haben wir animierte Menüleisten erstellt
