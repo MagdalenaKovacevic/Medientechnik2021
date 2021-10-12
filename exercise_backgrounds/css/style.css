@@ -1,0 +1,6 @@
+body{
+    background-image: url(../images/letitsnow.svg), url(../images/hirsch.jpg) ;
+    background-size: 50%, 100%
+    background-attachment: fixed;
+    background-position: center;
+}
