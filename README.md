@@ -10,6 +10,8 @@ In dieser Übung haben wir animierte Menüleisten erstellt
 
 In dieser Übung haben wir animierte Menüleisten erstellt
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/animiertes%20men%C3%BC>
+
 3. Übung 3
 
 In dieser Übung haben wir das erste mal mit css gearbeitet. Wir haben Bilder eingefügt und Schriften bearbeitet.
