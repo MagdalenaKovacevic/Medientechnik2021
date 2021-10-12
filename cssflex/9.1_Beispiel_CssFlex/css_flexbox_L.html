@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Display Spaltenlayout</title>
+        <meta name="description" content="Testseite mit mehreren umfließenden Boxen">
+		<style>
+			/* Internes Stylesheet */
+			body {
+				margin: 0;
+				color: #fff;
+			}
+			h2 {
+				text-align: center;
+				margin-top: 0;
+				padding: 2%;
+				background-color: #4CAF50;
+			}
+			
+			
+			.flexRow {
+				display: flex;
+				margin-bottom: 1%;
+			}
+			.column {
+				box-sizing: border-box;
+				width: 50%;
+				padding: 3%;
+				margin: 3%;
+                background-color:  darkblue;      
+            }
+            		.column3 {
+				box-sizing: border-box;
+				width: 30.3%;
+				padding: 3%;
+				margin: 3%;
+                background-color:  darkblue;      
+            }
+		</style>
+	</head>
+	<body>
+		<h2>Flexboxen Spaltenlayout</h2>
+		
+		<div class="flexRow"> <!-- Flex Container-->
+			<div class="column">Flex-Item</div>
+			<div class="column">Flex-Item</div>
+		</div>
+		
+		<div class="flexRow"> <!-- Flex Container-->
+			<div class="column">Flex-Item</div>
+			<div class="column">Flex-Item</div>
+		</div>
+		
+		<div class="flexRow"> <!-- Flex Container-->
+			<div class="column3">Flex-Item</div>
+			<div class="column3">Flex-Item</div>
+			<div class="column3">Flex-Item</div>
+		</div>
+	</body>
+</html>
