@@ -1,0 +1,132 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+body * {
+	box-sizing: border-box;
+	font-family:'Century Gothic', sans-serif;
+}
+
+/* header*/
+#textbox{
+	width: 100%;
+}
+
+#textbox h1 {
+	font-size: 200%;
+	color:rgba(255,255,255,1);
+	text-shadow: 0 0 10px black; 
+	margin:0;
+padding: 2% 0;
+	text-align: center;
+}
+
+/* Hintergrund */
+#underwater {
+	 /* The image used */
+  background-image: url("images/underwater.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+
+/* Fisch 1*/
+
+#fish1 {
+	position: absolute;
+	top: 8%;
+	left: 2%;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-name: fisch1;
+    transition: transform 1s ease;
+}
+@keyframes fisch1{
+    0% {left: 2%; top: 8%;}
+    25% {left: 75%; top: 8%;transform: rotate(80deg);}
+    26% {left: 75%; top: 8%;transform: rotate(90deg);}
+    50% {left: 75%; top: 75%;transform: rotate(90deg);}
+    51% {left: 75%; top: 75%;transform: rotate(180deg);}
+    75% {left: 2%; top: 75%;transform: rotate(180deg);}
+    76% {left: 2%; top: 75%;transform: rotate(270deg);}
+    99% {left: 2%; top: 8%;transform: rotate(270deg);}
+    100% {left: 2%; top: 8%;}
+}
+
+#fish2 {
+	position: absolute;
+	top: 8%;
+	right: 10%;
+	animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-name: fisch2;
+}
+@keyframes fisch2{
+    0% {right:10%; top: 8%;}
+    50% {right: 70%; top: 75%;}
+    0% {right:10%; top: 8%;}
+}
+
+
+#fish3 {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	animation-duration: 10s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-name: fisch3;
+}
+@keyframes fisch3{
+    0% {left: 15%; top: 30%;}
+    25% {left: 30%; top: 75%;transform: rotate(180deg);}
+    26% {left: 30%; top: 75%;transform: rotate(270deg);}
+    75% {left: 75%; top: 8%;transform: rotate(80deg);}
+    76% {left: 75%; top: 8%;transform: rotate(90deg);}
+    95% {left: 65%; top: 12%;transform: rotate(80deg);}
+    96% {left: 65%; top: 12%;transform: rotate(90deg);}
+    99% {left: 15%; top: 30%;}
+}
+#fish3 img{
+    position: absolute;
+	top: 30%;
+	left: 15%;
+	animation-duration: 10s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-name: fisch3-2;
+    transition: transform 1s ease;
+}
+@keyframes fisch3-2{
+    0% {transform: rotate(-20deg);}
+    10% {transform: rotate(0deg);}
+    20% {transform: rotate(20deg);}
+    30% {transform: rotate(0deg);}
+    40% {transform: rotate(-20deg);}
+    50% {transform: rotate(0deg);}
+    60% {transform: rotate(20deg);}
+    70% {transform: rotate(0deg);}
+    80% {transform: rotate(-20deg);}
+    90% {transform: rotate(0deg);}
+    100% {transform: rotate(20deg);}
+}
+
+/* Animiere den Fisch 3 zusätzlich so, dass er eine leicht Wellenbewegung (Rotation) ausführt. */
+
+/Welcher Selektor fehlt hier?/ {
+	width: 100%;
+	height: auto;
+	transform: rotate(0deg);
+	/* Fisch3 animieren. */
