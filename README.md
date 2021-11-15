@@ -34,6 +34,8 @@ In dieser Übung haben wir eine Website über Canyoning gemacht
 
 In dieser Übung haben wir Inline- und Block-Box gelernt
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/CSSDisplay>
+
 7. Übung 7
 
 In dieser Übung haben wir Flex-Box gelernt
