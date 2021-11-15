@@ -64,3 +64,5 @@ In dieser Übung haben wir eine Website über Canyoning gemacht
 
 In dieser Übung haben wir verschiedene Hintergrundbilder aufeinander geschachtelt und Text darüber eingefügt
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/exercise_backgrounds>
+
