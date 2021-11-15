@@ -52,6 +52,8 @@ In dieser Übung haben wir einfache Animationen umgesetzt
 
 In dieser Übung haben wir Fische so animiert, dass sie sich automatisch nach einer gewissen Zeit bewwegen
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/einstiegs%C3%BCbungen>
+
 10. Übung 10
 
 In dieser Übung haben wir eine Website über Canyoning gemacht
