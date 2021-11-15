@@ -28,6 +28,8 @@ In dieser Übung haben wir die Erklärung der Box Modelle in eine Website umgewa
 
 In dieser Übung haben wir eine Website über Canyoning gemacht
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/Canyoning>
+
 6. Übung 6
 
 In dieser Übung haben wir Inline- und Block-Box gelernt
