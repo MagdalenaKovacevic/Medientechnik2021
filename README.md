@@ -58,6 +58,8 @@ In dieser Übung haben wir Fische so animiert, dass sie sich automatisch nach ei
 
 In dieser Übung haben wir eine Website über Canyoning gemacht
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/excercise%20selektoren_canyoning_S>
+
 11. Übung 11
 
 In dieser Übung haben wir verschiedene Hintergrundbilder aufeinander geschachtelt und Text darüber eingefügt
