@@ -46,6 +46,8 @@ In dieser Übung haben wir Flex-Box gelernt
 
 In dieser Übung haben wir einfache Animationen umgesetzt
 
+<https://github.com/MagdalenaKovacevic/Medientechnik2021/tree/main/einfache%20Animation>
+
 9. Übung 9
 
 In dieser Übung haben wir Fische so animiert, dass sie sich automatisch nach einer gewissen Zeit bewwegen
